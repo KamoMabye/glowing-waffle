@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,700;0,800;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  margin-top: 55px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+hr{
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+p{
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 1rem;
+}
+
+h1{
+  font-family: Poppins,sans-serif;
+  font-size: 25px;
+}
+
+
+li{
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color:black;
+    text-decoration: none;
+    text-align: center;
+    text-wrap: nowrap;
+
+  }
+  
+  #nav_text{
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color:black;
+    text-decoration: none;
+    text-align: center;
+    text-wrap: nowrap;
+    transition: all 0.3s ease 0s;
+  }
+
+#logo{
+    border-radius: 50%;
+    width: 60px;
+}
+#tab_info{
+  font-family: Poppins,sans-serif;
+  font-size: 15px;
+  
+}
+
+#login_text{
+  font-family: Poppins,sans-serif;
+  font-size: 12px;
+  
+}
+
+#header_user{
+  display: flex;
+  justify-content:right;
+  align-items: center;
+  width: 250px;
+
+}
+
+#middle{
+  flex: 1;
+  align-items: center;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+#left{
+  width: 250px;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    padding: 15px 10px;
+    margin-bottom: 50px;
+    height: 55px;
+    z-index: 99;
+    background-color: rgb(255, 255, 255);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(5, 5, 5);
+  }
+
+  #nav_content,  #market_list{
+    list-style: none;
+    text-align: center;
+  
+  }
+  
+  #nav_link{
+    flex-shrink: 0;
+    display: inline-block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: all 0.3s ease 0s;
+  
+  }
+
+
+
+
+  #login_page{
+    min-height: 508px;
+    background: rgb(26, 121, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  #form_box{
+    margin-top: 20px;
+    width: 350px;
+    height: 400px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #form_heading{
+    padding-top: 15px;
+    font-family: Poppins,sans-serif;
+    font-size: 35px;
+  }
+
+  #ad_username{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: Montserrat, Arial, sans-serif;
+    border-radius: 15px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.3s ease;
+  }
+
+  #ad_username:hover{
+    border-color: rgb(26, 121, 230);
+  }
+
+  #ad_password{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: Montserrat, Arial, sans-serif;
+    border-radius: 15px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.3s ease;
+  }
+
+  #ad_password:hover{
+    border-color: rgb(26, 121, 230);
+  }
+
+  #username_box{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: Montserrat, Arial, sans-serif;
+    border-radius: 15px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.3s ease;
+  }
+
+  #username_box:hover{
+    border-color: rgb(26, 121, 230);
+  }
+
+  #login_button{
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: Montserrat, Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    height: 30px;
+    width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.3s ease;
+    align-self: center;
+  }
+
+  #login_button:hover{
+    border-color: rgb(26, 121, 230);
+  }
+
+  #form_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #admin_login{
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: Montserrat, Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    height: 30px;
+    width: 180px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.3s ease;
+    align-self: center;
+  }
+
+  #admin_login:hover{
+    border-color: rgb(26, 121, 230);
+  }
+
+  #login_link{
+    text-decoration: none;
+    color: rgb(26, 121, 230);
+    transition: all 0.2s ease;
+  }
+
+  #login_link:hover{
+    color: rgb(23, 104, 197);
+
+  }
+
+  #creat_button{
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: Montserrat, Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    height: 30px;
+    width: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.3s ease;
+    align-self: center;
+  }
+
+  #creat_button:hover{
+    border-color: rgb(26, 121, 230);
+  }
+
+  #admin_page{
+    padding-top: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 30px;
+  }
+
+  #ad_headings{
+    padding-top: 10px;
+    font-family: Poppins,sans-serif;
+    font-size: 20px;
+
+  }
+
+  #ad_info{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #verify_button{
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: Montserrat, Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    height: 30px;
+    width: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.3s ease;
+    align-self: center;
+  }
+
+  #verify_button:hover{
+    border-color: rgb(26, 121, 230);
+  }
+
+  #manage_button{
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: Montserrat, Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    height: 30px;
+    width: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.3s ease;
+    align-self: center;
+  }
+
+  #manage_button:hover{
+    border-color: rgb(26, 121, 230);
+  }
+
+  #logout_button{
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: Montserrat, Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    height: 30px;
+    width: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.3s ease;
+    align-self: center;
+  }
+
+  #logout_button:hover{
+    border-color: rgb(255, 24, 24);
+  }
+
+  #back_button{
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    height: 50px;
+    width: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.3s ease;
+    align-self: center;
+  }
+
+  #back_button:hover{
+    border-color: rgb(26, 121, 230);
+  }
+
+  #back{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  #buy_head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+  #table_buy{
+    border: 1px solid white;
+    border-collapse: collapse;
+
+  }
+
+  tr {
+    border-bottom: 1px solid #000000;
+  }
+
+  th, td {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #table_align{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #remove_button{
+    cursor: pointer;
+    border-style: none;
+    background-color: white;
+    transition: all 0.3s ease;
+  }
+
+  #remove_button:hover{
+  color: rgb(230, 26, 26);
+    
+  }
+
+  #checkboxes{
+    cursor: pointer;
+    font-family: Montserrat, Arial, sans-serif;
+  }
+
+  #verifications{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: white;
+    border-radius: 15px;
+    height: 30px;
+    width: 150px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  #verify_butt{
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: Montserrat, Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    height: 30px;
+    width: 170px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.3s ease;
+    align-self: center;
+
+  }
+
+  #verify_butt:hover{
+    border-color: rgb(26, 121, 230);
+  }
